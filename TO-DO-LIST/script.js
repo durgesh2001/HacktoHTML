@@ -1,3 +1,12 @@
+let inputText = document.getElementById("text");
+let btn = document.getElementById("push");
+inputText.addEventListener("keyup",e => {
+    e.preventDefault();
+    if(e.key === "Enter"){
+        console.log("Enter is pressed");
+        btn.click()
+    }
+})
 document.querySelector('#push').onclick = function(){
     if(document.querySelector('#newtask input').value.length == 0){
         alert("Please Enter a Task")
