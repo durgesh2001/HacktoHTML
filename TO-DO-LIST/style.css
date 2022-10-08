@@ -114,3 +114,6 @@ body{
 .completed{
     text-decoration: line-through;
 }
+.delete:hover{
+    background-color: rgb(203, 22, 22);
+}
