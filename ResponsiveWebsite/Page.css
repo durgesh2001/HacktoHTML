@@ -1,8 +1,8 @@
 /* Change Brand Font */
 .navbar-brand{
-    font-family: 'Ubuntu', sans-serif;
+   font-family: 'Inter Tight', sans-serif;
     font-size: 2em;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
   /* Change Navigation Color */
 .navbar #myMenu .custom-nav .nav-item a {
@@ -34,4 +34,5 @@
   a:hover {
     color: #E994A2;
   }
+ 
   
