@@ -1,0 +1,113 @@
+.header{
+	width:100%;
+	height: 200px;
+	background-color: #002f5d;
+	display: flex;
+	color: white;
+	
+	
+}
+.header-left{
+     width:20%;
+
+}
+.header-left img{
+	width: 69%;
+    height: 85%;
+    margin: 16px;
+    border-radius: 5px;
+}
+.span-space{
+	margin: 28px;
+	color: #74e1ff;
+}
+.header-right{
+	width: 70%;
+}
+.middle{
+	width: 100%;
+	height:700px;
+	display:flex;
+}
+.middle-left{
+	width: 70%;
+	margin: 15px 20px;
+
+}
+.middle-left div h1{
+	background-color: #eeeeee ;
+	padding: 10px;
+}
+.certificate h1{
+	background-color: #eeeeee;
+	padding: 10px;
+}
+.responsibility h1{
+	background-color: #eeeeee;
+	padding: 10px;
+}
+
+.career_objective h1{
+	background-color: #eeeeee;
+	padding: 10px;
+}
+.experience h1{
+	background-color: #eeeeee;
+	padding: 10px;
+}
+
+
+
+.middle-right{
+	width:30%;
+	background-color: #eeeeee;
+}
+.skill h1{
+	background-color:white ;
+	padding: 10px;
+}
+.project h1{
+	background-color:white ;
+	padding: 10px;
+}
+.project ul li a{
+	text-decoration: none;
+}
+
+li{
+	word-break: break-all;
+}
+
+@media only screen and (max-width: 530px) {
+	.header{
+		display: block;
+		height: fit-content;
+		padding: 30px;
+		align-items: center;
+	}
+	.header-left img{
+      width:100%;
+	}
+	.middle{
+		display:block;
+		width: 100%;
+		margin: 10px;
+		
+	}
+	.middle-left{
+		width: 100%;
+		margin: 11px 12px;
+	
+	}
+    .middle-right{
+		width: 100%;
+		margin: 11px 12px;
+
+    } 
+	.certificate h1{
+		padding: 2px;
+	}
+	
+
+	
+   }
