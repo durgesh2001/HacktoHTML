@@ -1,0 +1,367 @@
+body {
+    text-align: center;
+}
+
+/* updated navbar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding-top: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+
+nav .logo {
+    padding: 0px 0px 0px 200px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    float: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    display: flex;
+}
+
+nav ul li a {
+    line-height: 80px;
+    font-family: "monstserrat";
+    color: #ffffff;
+    padding: 12px 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: red;
+    border-radius: none;
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 90vh;
+    background: url(http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/background-burgers-home-top.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 105%;
+}
+
+
+
+
+
+
+.nav-icons {
+    padding: 5%;
+}
+
+.bg-image {
+    background-image: url(http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/background-burgers-home-top.jpg);
+    min-height: 725px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navb {
+    position: relative;
+    left: 35px;
+    opacity: 0.5;
+}
+
+.nav-link {
+    font-family: montserrate-bold;
+    text-decoration-color: white;
+}
+
+.nav-link:hover {
+    background-color: red;
+}
+
+/* <!-- red 4 columnsection  --> */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* button  */
+.myButton {
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+
+}
+
+.myButton:hover {
+    background-color: #5cbf2a;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #4CAF50;
+}
+
+/* Green */
+.button2 {
+    background-color: #008CBA;
+}
+
+/* Blue */
+
+
+
+/* LOCA'S CSS  */
+
+h5 {
+    color: #fff;
+}
+
+p {
+    color: rgb(190, 190, 190);
+
+}
+
+
+.nav-icons {
+    padding: 5%;
+}
+
+.bg-image {
+    background-image: url(http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/background-burgers-home-top.jpg);
+    min-height: 680px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navb {
+    position: relative;
+    left: 35px;
+
+}
+
+.nav-link {
+    font-family: montserrate-bold;
+    text-decoration-color: white;
+}
+
+.nav-link:hover {
+    background-color: red;
+}
+
+/* div-4-img */
+.div-4-img {
+    size: 40px;
+}
+
+/* division-2 */
+.division-2 {
+    padding: 50px;
+    background-color: red;
+}
+
+.div-2-images {
+    padding-bottom: 20px;
+}
+
+/* .division-3 */
+.division-3 {
+    padding: 180px;
+    background-color: rgb(255, 255, 255);
+    border-width: 20px;
+    border-color: black;
+}
+
+.myButton {
+
+    background-color: #ffffff;
+    color: #ff0000;
+    border: 3px solid #ff0000;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 35px;
+}
+
+.myButton:hover {
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+/* division-7 */
+#footer {
+    padding-top: 15px 30px;
+    background-color: #fff;
+    padding: 15px 0px 0px 0px;
+
+}
+
+.social-icon {
+    padding: 20px;
+
+}
+
+.social-icon:hover {
+    color: #000000;
+}
+
+/* division-6 */
+/* .roww {
+    background-color: red;
+}
+
+.myButton1 {
+
+    background-color: red;
+    color: #fff;
+    border: 3px solid #fff;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+.myButton1:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.myButton1:active {
+    position: relative;
+    top: 1px;
+}
+
+.div-6-h1 {
+    position: relative;
+    top: 40px;
+}
+
+.div-6-btn {
+    position: relative;
+    bottom: 40px;
+} */
+
+.myButton1 {
+
+    background-color: red;
+    color: #fff;
+    border: 3px solid #fff;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+.myButton1:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.myButton1:active {
+    position: relative;
+    top: 1px;
+}
+
+.div-6-h1 {
+    position: relative;
+    top: 40px;
+}
+
+.div-6-btn {
+    position: relative;
+    bottom: 40px;
+}
+
+
+/* division 2 */
+body {
+    z-index: 0;
+}
+
+.bdy-div1 {
+    position: relative;
+    bottom: 390px;
+}
+
+h5 {
+    color: #fff;
+    size: 2rem;
+}
+
+p {
+    color: rgb(129, 129, 129);
+    font-size: 1rem;
+}
+
+.division-2 {
+    padding: 50px;
+    background-color: red;
+}
+
+.div-2-images {
+    padding-bottom: 20px;
+    width: 10rem;
+    height: 12rem;
+}
+
+.text1{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
