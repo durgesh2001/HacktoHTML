@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(to bottom, rgb(78, 78, 206), rgb(95, 173, 197)) no-repeat;
+    min-height: 100vh;
+}
+h1{
+    margin-top: 50px !important;
+    background-color: rgb(185, 110, 110);
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bolder !important;
+}
+img{
+    height: 200px;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
