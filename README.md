@@ -6,7 +6,7 @@ This repository is encourage people to contribute to open source throughout octo
 
 ## Rules to contribute to this Repo
 
-- Use any programming language.
+- Contribute by your code in this project.
 -HTML, CSS, Android Projects, Web Developement, AI etc.
 - Anything valuable.
 
@@ -18,7 +18,7 @@ This repository is encourage people to contribute to open source throughout octo
 - Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/durgesh2001/Hacktoberfest_2022.git
+git clone https://github.com/durgesh2001/HacktoHTML.git
 ```
 
 - Create a branch
