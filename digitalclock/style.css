@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10svh;
+    justify-content: center;
+    background-color:wheat;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-weight: 20;
+     margin: 0;
+
+}
+
+.clock {
+    display: flex;
+
+}
+
+.clock div {
+    margin: 5px;
+
+}
+
+.clock span {
+    width: 50px;
+    height: 40px;
+    opacity: 0.9;
+    color: rgb(75, 13, 247);
+    background:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgb(243, 5, 164);
+    overflow: hidden;
+}
+.clock .text{
+    height: 15px;
+    font-size: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: aqua;
+    opacity: 0.8;
+}
+.clock #ampm{
+
+    width: 30px;
+    height: 15px;
+    
+    text-emphasis-color: red;
+    font-size: 10px;
+
+    position: absolute;
+}
+.dark{
+position: relative;
+    margin: 2%;
+    padding: 5px,2px,3px,2px;
+    display: flex;
+    justify-content: center;
+    
+    transition: .4s;
+}
+.input{
+    visibility: hidden;
+}
+.label{
+    width: 40px;
+    height: 20;
+    background-color: lightgray;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.circle{
+    width: 17px;
+    background-color:white;
+    height: 17px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    animation: toggleoff .2s
+    linear forwards;
+
+
+}
+.input:checked + .label{
+    background-color: salmon;
+}
+.input:checked + .label .circle{
+    animation: toggleon .2s 
+    linear forwards;
+    background-color: black;
+}
+
+@keyframes toggleon{
+
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(25px);
+    }
+}
+@keyframes toggleoff{
+
+    0%{
+        transform: translateX(25px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
