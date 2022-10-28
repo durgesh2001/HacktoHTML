@@ -1,0 +1,191 @@
+.polygon {
+  overflow: hidden;
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  background: url('https://images5.alphacoders.com/445/445906.jpg');
+  background-size: cover;
+  background-position: center center;
+  cursor: url('http://findicons.com/files/icons/385/game_stars/64/mario.png')
+      32
+      32,
+    pointer;
+  position: relative;
+}
+
+.bullet {
+  height: 70px;
+  width: 70px;
+  margin-right: 5px;
+  margin-top: 15px;
+  position: absolute;
+  top: -50%;
+  left: 0;
+  background: url('http://findicons.com/files/icons/2258/addictive_flavour/48/super_mario_rocket.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.polygon .bullet:hover {
+  border-radius: 0;
+  margin: 0;
+  height: 400px;
+  width: 800px;
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ff0000;
+  cursor: default;
+  animation: anime1 0s !important;
+  animation: anime2 0s !important;
+  animation: anime3 0s !important;
+  animation: anime4 0s !important;
+  animation: anime5 0s !important;
+  animation: anime6 0s !important;
+  animation: anime7 0s !important;
+  animation: anime8 0s !important;
+}
+
+.polygon .bullet:hover:before {
+  content: "BAMMM!";
+  width: 600px;
+  color: #ffffff;
+}
+
+.polygon:hover .bullet--1 {
+  animation: anime1 6s 0s linear infinite;
+}
+
+.polygon:hover .bullet--2 {
+  animation: anime2 4s 2s linear infinite;
+}
+
+.polygon:hover .bullet--3 {
+  animation: anime3 3s 3s linear infinite;
+}
+
+.polygon:hover .bullet--4 {
+  animation: anime4 6s 4s linear infinite;
+}
+
+.polygon:hover .bullet--5 {
+  animation: anime5 4s 5s linear infinite;
+}
+
+.polygon:hover .bullet--6 {
+  animation: anime2 3s 6s linear infinite;
+}
+
+.polygon:hover .bullet--7 {
+  animation: anime7 2s 8s linear infinite;
+}
+
+.polygon:hover .bullet--8 {
+  animation: anime4 5s 8s linear infinite;
+}
+
+.polygon:hover .bullet--9 {
+  animation: anime8 3s 9s linear infinite;
+}
+
+.polygon:hover .bullet--10 {
+  animation: anime6 4s 10s linear infinite;
+}
+
+@-webkit-keyframes anime1 {
+  0% {
+    top: 260px;
+    left: 110%;
+  }
+
+  100% {
+    top: 260px;
+    right: 110%;
+  }
+}
+
+@-webkit-keyframes anime2 {
+  0% {
+    top: 50px;
+    left: 110%;
+  }
+
+  100% {
+    top: 50px;
+    right: 110%;
+  }
+}
+
+@-webkit-keyframes anime3 {
+  0% {
+    top: 150px;
+    left: 110%;
+  }
+
+  100% {
+    top: 200px;
+    right: 110%;
+  }
+}
+
+@-webkit-keyframes anime4 {
+  0% {
+    top: 300px;
+    left: 110%;
+  }
+
+  100% {
+    top: 200px;
+    right: 110%;
+  }
+}
+
+@-webkit-keyframes anime5 {
+  0% {
+    top: 150px;
+    left: 110%;
+  }
+
+  100% {
+    top: 150px;
+    right: 110%;
+  }
+}
+
+@-webkit-keyframes anime6 {
+  0% {
+    top: 50px;
+    left: 110%;
+  }
+
+  100% {
+    top: 250px;
+    right: 110%;
+  }
+}
+
+@-webkit-keyframes anime7 {
+  0% {
+    top: 300px;
+    left: 110%;
+  }
+
+  100% {
+    top: 0;
+    right: 110%;
+  }
+}
+
+@-webkit-keyframes anime8 {
+  0% {
+    top: 0;
+    left: 110%;
+  }
+
+  100% {
+    top: 300px;
+    right: 110%;
+  }
+}
